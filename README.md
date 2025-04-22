@@ -31,13 +31,14 @@ instaler les dependance
 
 ```bash
 pip install -r requirements.txt
-
+```
+```bash
 pip install psutil,scikit-learn,matplotlib,pandas
-
-#Execute projet avec :
-
+```
+# Execute projet avec :
+```bash
  python main.py
-
+```
 
 
 

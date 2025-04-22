@@ -1,6 +1,6 @@
 from sklearn.ensemble import IsolationForest
 
-def detecter_anomalies(df, contamination=0.1):
+def detecter_anomalies(df, contamination=0.001):
     if df.empty:
         return df
 

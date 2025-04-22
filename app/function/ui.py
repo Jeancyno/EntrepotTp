@@ -7,9 +7,9 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 def setup_ui(actualiser_callback):
     root = tk.Tk()
-    root.title("Surveillance des processus - Détection d'anomalies")
+    root.title("Surveillance des processus - Détection d'anomalies Tp entrepot")
     root.geometry("1000x600")
-    # Juste après root.geometry(...)
+   
     titre_h1 = tk.Label(root, text="Entrepot TP", 
                         font=("Arial", 20, "bold"), 
                         fg="#2c3e50")

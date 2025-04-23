@@ -20,8 +20,10 @@ def collecter_processus():
 def actualiser(root, ax, canvas, table, compteur):
     df = collecter_processus()
     if df.empty:
-        root.after(10000, lambda: actualiser(root, ax, canvas, table, compteur))
         return
+    # Cette partie est inutile car le programme s'actualisera
+    #     root.after(10000, lambda: actualiser(root, ax, canvas, table, compteur))
+    #     return
 
     df = detecter_anomalies(df)  
     from utils import mettre_a_jour_graphique, mettre_a_jour_tableau
